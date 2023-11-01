@@ -1,0 +1,222 @@
+$Main-color: #fff;
+$dark-red:#520808;
+$red:rgb(37, 1, 8);
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+// Add general styling
+body {
+    font-family: Arial, sans-serif;
+    background-color: $Main-color;
+}
+
+header {
+    background-color: #421e1e;
+    color: $Main-color;
+    padding: 10px 0;
+}
+
+.top-bar {
+    margin: 2px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+    background-color: #050505;
+    padding: 15px;
+    border-radius: 20px
+}
+
+.search-box input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+}
+
+#font{
+    float: right;
+    font-size: 26px;
+    padding: 3px;
+    padding-right: 20px;
+    }
+.container {
+    text-align: center;
+    padding: 20px;
+    img {
+        width:50% ;
+    }
+}
+
+.navbar-nav a {
+    text-align:center;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 20px;
+    
+}
+.nav-link {
+    transition: transform 0.3s; 
+    display: inline-block; 
+}
+.nav-link:hover {
+    transform: scale(1.1); 
+}
+
+.banner {
+    margin: 30px;
+    background-image: url("banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    text-align: center;
+    position: relative;
+.banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: 'Times New Roman', Times, serif;
+        transform: translate(-50%, -50%);
+        background: $red;
+        padding: 20px;
+        border-radius: 10px;
+h5{
+    color: white;
+}
+h1 {
+            color: #f5f2f2;
+            font-size: 36px;
+
+            }
+        }
+    }
+.Foodtype{
+    padding-top: 40px;
+    text-decoration: underline;
+    font-family: 'Arial', sans-serif;
+font-size: 36px;
+color: #FF5733;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 4px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.section-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: $Main-color;
+    text-align: center;
+    background-color: $dark-red;
+    border-radius: 30px;
+}
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;    
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    
+    img {
+        max-width: 100%;
+        width: 1000px;
+    }
+    
+    .name {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .price {
+        font-size: 28px;
+    }
+    
+    .img {
+        width: 300px;
+        height: 450px;
+        display: flexbox; 
+        
+    }
+}
+
+.abbanner{
+    margin: 30px;
+    background-image:url(burg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    padding: 0px;
+    text-align: center;
+    position: relative;
+.abb-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(107, 47, 47);
+    padding: 30px;
+    border-radius: 10px;
+    color: #f9f9f9;
+
+}
+}
+
+.pra{
+    font-size: 26px;
+    text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.section1{
+    background-color: #e2dede;
+border-radius: 30px;
+margin-left: 50px;
+margin-right: 50px;
+background-image: url(banner22.jpg);
+}
+
+.team-images{
+    width: 400px;
+    height: 400px;
+}
+.teamm{
+    background-color: #d8d7d7;
+    border-radius: 30px;
+    margin: 50px;
+    box-shadow: 9px 20px 9px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+
+.sname{
+    color: rgb(12, 12, 12);
+font-family: 'Times New Roman', Times, serif;
+
+}
+.cname{
+    color: $Main-color;
+    font-size: 20px;
+    float: left;
+}
+.conh{
+    color: $Main-color;
+    font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+padding: 10px;
+    background-color: rgb(66, 2, 2);
+    border-radius: 10px;
+    
+}
+.footer{
+    background-color: rgb(37, 1, 8);
+color: $Main-color;
+font-size: 25px;
+padding: 50px;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
